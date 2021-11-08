@@ -25,7 +25,7 @@ open class FPNTextField: UITextField {
 		let width = flagButtonSize.width + getWidth(text: phoneCodeTextField.text!)
 		let height = bounds.height
 
-		return CGSize(width: width + 8, height: height)
+		return CGSize(width: width + 4, height: height)
 	}
 
 	private var phoneCodeTextField: UITextField = UITextField()
